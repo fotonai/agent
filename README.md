@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/intersect-ai.svg)](https://badge.fury.io/js/intersect-ai)
-[![Build Status](https://github.com/intersectai/agent/workflows/CI/badge.svg)](https://github.com/intersectai/agent/actions)
+[![Build Status](https://github.com/intersectai/agent/workflows/CI/badge.svg)](https://github.com/intersectaixyz/agent/actions)
 [![Discord](https://img.shields.io/discord/1234567890)](https://discord.gg/intersectai)
 
 > AI agent designed to eliminate the barriers of slowness and errors in the crypto blockchain ecosystem
@@ -150,4 +150,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Support
 
-If you like this project, please give it a ★ on [GitHub](https://github.com/intersectai/agent)!
+If you like this project, please give it a ★ on [GitHub](https://github.com/intersectaixyz/agent)!
