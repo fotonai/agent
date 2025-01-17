@@ -1,9 +1,9 @@
-# InCryptoAI 🤖
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/incrypto-ai.svg)](https://badge.fury.io/js/incrypto-ai)
-[![Build Status](https://github.com/jonasbn/til/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/incryptoaixyz/agent/actions)
-[![Discord](https://img.shields.io/discord/1234567890)](https://discord.gg/incryptoai)
 
+# FotonAI 🤖
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/foton-ai.svg)](https://badge.fury.io/js/foton-ai)
+[![Build Status](https://github.com/jonasbn/til/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/fotonaixyz/agent/actions)
+[![Discord](https://img.shields.io/discord/1234567890)](https://discord.gg/fotonai)
 > AI agent designed to eliminate the barriers of slowness and errors in the crypto blockchain ecosystem
 
 ## 🚀 Features
@@ -16,32 +16,27 @@
 ## 📦 Installation
 ```bash
 # Using npm
-npm install incrypto-ai
-
+npm install foton-ai
 # Using yarn
-yarn add incrypto-ai
-
+yarn add foton-ai
 # Using pnpm
-pnpm add incrypto-ai
+pnpm add foton-ai
 ```
 
 ## 🔧 Quick Start
 ```javascript
-const InCryptoAI = require('incrypto-ai');
-
+const FotonAI = require('foton-ai');
 // Initialize agent
-const agent = new InCryptoAI({
+const agent = new FotonAI({
   apiKey: 'your-api-key',
   network: 'ethereum', 
   mode: 'production'
 });
-
 // Connect wallet
 await agent.connectWallet({
   type: 'metamask',
   network: 'ethereum'
 });
-
 // Start monitoring
 await agent.startMonitoring({
   errorDetection: true,
@@ -51,16 +46,14 @@ await agent.startMonitoring({
 ```
 
 ## 📚 Documentation
-For detailed documentation, visit our [Gitbook](https://docs.incryptoai.com).
-
+For detailed documentation, visit our [Gitbook](https://docs.fotonai.com).
 Key documentation sections:
-- [Getting Started](https://docs.incryptoai.com/get-started)
-- [API Reference](https://docs.incryptoai.com/api-reference)
-- [Integration Guides](https://docs.incryptoai.com/integration)
-- [Examples](https://docs.incryptoai.com/examples)
+- [Getting Started](https://docs.fotonai.com/get-started)
+- [API Reference](https://docs.fotonai.com/api-reference)
+- [Integration Guides](https://docs.fotonai.com/integration)
+- [Examples](https://docs.fotonai.com/examples)
 
 ## 🔍 Examples
-
 ### Error Detection and Resolution
 ```javascript
 // Configure error handling
@@ -69,7 +62,6 @@ agent.configureErrorHandling({
   notifyOnError: true,
   retryAttempts: 3
 });
-
 // Monitor transaction
 const result = await agent.monitorTransaction({
   to: '0x...',
@@ -86,7 +78,6 @@ agent.configureSpeedOptimization({
   maxGasFee: '100',
   optimizeFor: 'speed'
 });
-
 // Execute optimized transaction
 const tx = await agent.sendOptimizedTransaction({
   to: '0x...',
@@ -95,7 +86,6 @@ const tx = await agent.sendOptimizedTransaction({
 ```
 
 ## 🛠 Development
-
 ### Prerequisites
 - Node.js 16+
 - npm or yarn
@@ -104,22 +94,18 @@ const tx = await agent.sendOptimizedTransaction({
 ### Local Setup
 ```bash
 # Clone repository
-git clone https://github.com/incryptoai/agent
-
+git clone https://github.com/fotonai/agent
 # Install dependencies
 cd agent
 npm install
-
 # Start development server
 npm run dev
-
 # Run tests
 npm test
 ```
 
 ## 🤝 Contributing
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -130,11 +116,11 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
-- [Website](https://incryptoai.com)
-- [Documentation](https://docs.incryptoai.com)
-- [Discord Community](https://discord.gg/incryptoai)
-- [Twitter](https://twitter.com/incryptoai)
-- [Blog](https://blog.incryptoai.com)
+- [Website](https://fotonai.com)
+- [Documentation](https://docs.fotonai.com)
+- [Discord Community](https://discord.gg/fotonai)
+- [Twitter](https://twitter.com/fotonai)
+- [Blog](https://blog.fotonai.com)
 
 ## 🌟 Support
-If you like this project, please give it a ★ on [GitHub](https://github.com/incryptoaixyz/agent)!
+If you like this project, please give it a ★ on [GitHub](https://github.com/fotonaixyz/agent)!
